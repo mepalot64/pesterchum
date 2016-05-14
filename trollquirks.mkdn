@@ -180,3 +180,25 @@ REPLACE WITH: ")("
 REPLACE: "E"
 WITH: "-E"
 </pre>
+
+Caliborn
+------
+<pre>
+REGEXP: "([a-z])"
+REPLACED WITH: "upper(\1)"
+</pre>
+<pre>
+REPLACE: U
+WITH: u
+</pre>
+
+Calliope
+------
+<pre>
+REGEXP: "([a-z])"
+REPLACED WITH: "lower(\1)"
+</pre>
+<pre>
+REPLACE: u
+WITH: U
+</pre>
